@@ -33,5 +33,6 @@ void FMyMetaSoundModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 
+// This macro registers all queued MetaSound nodes
 METASOUND_IMPLEMENT_MODULE_REGISTRATION_LIST
 IMPLEMENT_MODULE(FMyMetaSoundModule, MyMetaSound)
