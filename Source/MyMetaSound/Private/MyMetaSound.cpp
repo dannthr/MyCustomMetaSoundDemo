@@ -35,4 +35,6 @@ void FMyMetaSoundModule::ShutdownModule()
 
 // This macro registers all queued MetaSound nodes
 METASOUND_IMPLEMENT_MODULE_REGISTRATION_LIST
+
+// Standard Unreal module implementation macro
 IMPLEMENT_MODULE(FMyMetaSoundModule, MyMetaSound)
