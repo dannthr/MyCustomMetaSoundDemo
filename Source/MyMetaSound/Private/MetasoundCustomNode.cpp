@@ -138,7 +138,7 @@ namespace Metasound
 
 	const FNodeClassMetadata& FCustomOperator::GetNodeInfo()
 	{
-		// In code lambda for defining class metadata
+		// Stateless lambda for defining class metadata
 		auto InitNodeInfo = []() -> FNodeClassMetadata
 		{
 			FNodeClassMetadata Info;
@@ -180,7 +180,7 @@ namespace Metasound
 
 	const FVertexInterface& FCustomOperator::GetDefaultInterface()
 	{
-		// In code lambda for defining the default interface
+		// Stateless lambda for defining the default interface
 		// This will add Vertices and associate the previously declared names
 		// with types as well as default values
 		auto CreateDefaultInterface = []() -> FVertexInterface
